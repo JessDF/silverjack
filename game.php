@@ -29,14 +29,11 @@
     </head>
     
     <body>
-        
+      <main>
         <h1>Silverjack Review</h1>
-       
-       
-       
        <?=displayRandCard()?> 
      
        
-      
+      </main>
     </body>
 </html>
