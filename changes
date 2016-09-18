@@ -225,3 +225,219 @@ Binary files /dev/null and b/Pics/spades/9.png differ
         [m
         function displayRandCard()[m
         {[m
+[1mdiff --git a/Pics/Garrett.jpg b/Pics/Garrett.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex c132794..0000000[m
+Binary files a/Pics/Garrett.jpg and /dev/null differ
+[1mdiff --git a/Pics/card_back.png b/Pics/card_back.png[m
+[1mdeleted file mode 100644[m
+[1mindex f4ef2b9..0000000[m
+Binary files a/Pics/card_back.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/1.png b/Pics/clubs/1.png[m
+[1mdeleted file mode 100644[m
+[1mindex 3ff8aa6..0000000[m
+Binary files a/Pics/clubs/1.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/10.png b/Pics/clubs/10.png[m
+[1mdeleted file mode 100644[m
+[1mindex 888cdd6..0000000[m
+Binary files a/Pics/clubs/10.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/11.png b/Pics/clubs/11.png[m
+[1mdeleted file mode 100644[m
+[1mindex 70c085b..0000000[m
+Binary files a/Pics/clubs/11.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/12.png b/Pics/clubs/12.png[m
+[1mdeleted file mode 100644[m
+[1mindex fd9d3b5..0000000[m
+Binary files a/Pics/clubs/12.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/13.png b/Pics/clubs/13.png[m
+[1mdeleted file mode 100644[m
+[1mindex cf1f723..0000000[m
+Binary files a/Pics/clubs/13.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/2.png b/Pics/clubs/2.png[m
+[1mdeleted file mode 100644[m
+[1mindex c46843a..0000000[m
+Binary files a/Pics/clubs/2.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/3.png b/Pics/clubs/3.png[m
+[1mdeleted file mode 100644[m
+[1mindex d9435b4..0000000[m
+Binary files a/Pics/clubs/3.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/4.png b/Pics/clubs/4.png[m
+[1mdeleted file mode 100644[m
+[1mindex cc72540..0000000[m
+Binary files a/Pics/clubs/4.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/5.png b/Pics/clubs/5.png[m
+[1mdeleted file mode 100644[m
+[1mindex 451ac6a..0000000[m
+Binary files a/Pics/clubs/5.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/6.png b/Pics/clubs/6.png[m
+[1mdeleted file mode 100644[m
+[1mindex 9293ed3..0000000[m
+Binary files a/Pics/clubs/6.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/7.png b/Pics/clubs/7.png[m
+[1mdeleted file mode 100644[m
+[1mindex aca12f2..0000000[m
+Binary files a/Pics/clubs/7.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/8.png b/Pics/clubs/8.png[m
+[1mdeleted file mode 100644[m
+[1mindex 539f327..0000000[m
+Binary files a/Pics/clubs/8.png and /dev/null differ
+[1mdiff --git a/Pics/clubs/9.png b/Pics/clubs/9.png[m
+[1mdeleted file mode 100644[m
+[1mindex 2228cec..0000000[m
+Binary files a/Pics/clubs/9.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/1.png b/Pics/diamonds/1.png[m
+[1mdeleted file mode 100644[m
+[1mindex d98a7c4..0000000[m
+Binary files a/Pics/diamonds/1.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/10.png b/Pics/diamonds/10.png[m
+[1mdeleted file mode 100644[m
+[1mindex 2dcf08e..0000000[m
+Binary files a/Pics/diamonds/10.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/11.png b/Pics/diamonds/11.png[m
+[1mdeleted file mode 100644[m
+[1mindex 2b98730..0000000[m
+Binary files a/Pics/diamonds/11.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/12.png b/Pics/diamonds/12.png[m
+[1mdeleted file mode 100644[m
+[1mindex 465d962..0000000[m
+Binary files a/Pics/diamonds/12.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/13.png b/Pics/diamonds/13.png[m
+[1mdeleted file mode 100644[m
+[1mindex 17ba2c2..0000000[m
+Binary files a/Pics/diamonds/13.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/2.png b/Pics/diamonds/2.png[m
+[1mdeleted file mode 100644[m
+[1mindex 8278642..0000000[m
+Binary files a/Pics/diamonds/2.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/3.png b/Pics/diamonds/3.png[m
+[1mdeleted file mode 100644[m
+[1mindex 5132549..0000000[m
+Binary files a/Pics/diamonds/3.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/4.png b/Pics/diamonds/4.png[m
+[1mdeleted file mode 100644[m
+[1mindex dd2418b..0000000[m
+Binary files a/Pics/diamonds/4.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/5.png b/Pics/diamonds/5.png[m
+[1mdeleted file mode 100644[m
+[1mindex 4bf1de9..0000000[m
+Binary files a/Pics/diamonds/5.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/6.png b/Pics/diamonds/6.png[m
+[1mdeleted file mode 100644[m
+[1mindex b21a3ee..0000000[m
+Binary files a/Pics/diamonds/6.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/7.png b/Pics/diamonds/7.png[m
+[1mdeleted file mode 100644[m
+[1mindex 8d97797..0000000[m
+Binary files a/Pics/diamonds/7.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/8.png b/Pics/diamonds/8.png[m
+[1mdeleted file mode 100644[m
+[1mindex 48dbe15..0000000[m
+Binary files a/Pics/diamonds/8.png and /dev/null differ
+[1mdiff --git a/Pics/diamonds/9.png b/Pics/diamonds/9.png[m
+[1mdeleted file mode 100644[m
+[1mindex d5833b2..0000000[m
+Binary files a/Pics/diamonds/9.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/1.png b/Pics/hearts/1.png[m
+[1mdeleted file mode 100644[m
+[1mindex 534cf09..0000000[m
+Binary files a/Pics/hearts/1.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/10.png b/Pics/hearts/10.png[m
+[1mdeleted file mode 100644[m
+[1mindex 30f93d2..0000000[m
+Binary files a/Pics/hearts/10.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/11.png b/Pics/hearts/11.png[m
+[1mdeleted file mode 100644[m
+[1mindex 99d1ef3..0000000[m
+Binary files a/Pics/hearts/11.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/12.png b/Pics/hearts/12.png[m
+[1mdeleted file mode 100644[m
+[1mindex f0f7d79..0000000[m
+Binary files a/Pics/hearts/12.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/13.png b/Pics/hearts/13.png[m
+[1mdeleted file mode 100644[m
+[1mindex 7274ece..0000000[m
+Binary files a/Pics/hearts/13.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/2.png b/Pics/hearts/2.png[m
+[1mdeleted file mode 100644[m
+[1mindex ed95e56..0000000[m
+Binary files a/Pics/hearts/2.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/3.png b/Pics/hearts/3.png[m
+[1mdeleted file mode 100644[m
+[1mindex 72a3bda..0000000[m
+Binary files a/Pics/hearts/3.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/4.png b/Pics/hearts/4.png[m
+[1mdeleted file mode 100644[m
+[1mindex 30d06de..0000000[m
+Binary files a/Pics/hearts/4.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/5.png b/Pics/hearts/5.png[m
+[1mdeleted file mode 100644[m
+[1mindex a8a4236..0000000[m
+Binary files a/Pics/hearts/5.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/6.png b/Pics/hearts/6.png[m
+[1mdeleted file mode 100644[m
+[1mindex 5a26cbb..0000000[m
+Binary files a/Pics/hearts/6.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/7.png b/Pics/hearts/7.png[m
+[1mdeleted file mode 100644[m
+[1mindex 1a99572..0000000[m
+Binary files a/Pics/hearts/7.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/8.png b/Pics/hearts/8.png[m
+[1mdeleted file mode 100644[m
+[1mindex 6e274b2..0000000[m
+Binary files a/Pics/hearts/8.png and /dev/null differ
+[1mdiff --git a/Pics/hearts/9.png b/Pics/hearts/9.png[m
+[1mdeleted file mode 100644[m
+[1mindex f649c8d..0000000[m
+Binary files a/Pics/hearts/9.png and /dev/null differ
+[1mdiff --git a/Pics/spades/1.png b/Pics/spades/1.png[m
+[1mdeleted file mode 100644[m
+[1mindex 536a3be..0000000[m
+Binary files a/Pics/spades/1.png and /dev/null differ
+[1mdiff --git a/Pics/spades/10.png b/Pics/spades/10.png[m
+[1mdeleted file mode 100644[m
+[1mindex 66ea2f1..0000000[m
+Binary files a/Pics/spades/10.png and /dev/null differ
+[1mdiff --git a/Pics/spades/11.png b/Pics/spades/11.png[m
+[1mdeleted file mode 100644[m
+[1mindex ca08035..0000000[m
+Binary files a/Pics/spades/11.png and /dev/null differ
+[1mdiff --git a/Pics/spades/12.png b/Pics/spades/12.png[m
+[1mdeleted file mode 100644[m
+[1mindex f8d5deb..0000000[m
+Binary files a/Pics/spades/12.png and /dev/null differ
+[1mdiff --git a/Pics/spades/13.png b/Pics/spades/13.png[m
+[1mdeleted file mode 100644[m
+[1mindex 3072ea3..0000000[m
+Binary files a/Pics/spades/13.png and /dev/null differ
+[1mdiff --git a/Pics/spades/2.png b/Pics/spades/2.png[m
+[1mdeleted file mode 100644[m
+[1mindex ae7ba22..0000000[m
+Binary files a/Pics/spades/2.png and /dev/null differ
+[1mdiff --git a/Pics/spades/3.png b/Pics/spades/3.png[m
+[1mdeleted file mode 100644[m
+[1mindex c8d38f0..0000000[m
+Binary files a/Pics/spades/3.png and /dev/null differ
+[1mdiff --git a/Pics/spades/4.png b/Pics/spades/4.png[m
+[1mdeleted file mode 100644[m
+[1mindex 2c93a21..0000000[m
+Binary files a/Pics/spades/4.png and /dev/null differ
+[1mdiff --git a/Pics/spades/5.png b/Pics/spades/5.png[m
+[1mdeleted file mode 100644[m
+[1mindex 5cf3bcf..0000000[m
+Binary files a/Pics/spades/5.png and /dev/null differ
+[1mdiff --git a/Pics/spades/6.png b/Pics/spades/6.png[m
+[1mdeleted file mode 100644[m
+[1mindex edc65b5..0000000[m
+Binary files a/Pics/spades/6.png and /dev/null differ
+[1mdiff --git a/Pics/spades/7.png b/Pics/spades/7.png[m
+[1mdeleted file mode 100644[m
+[1mindex ee77ee9..0000000[m
+Binary files a/Pics/spades/7.png and /dev/null differ
+[1mdiff --git a/Pics/spades/8.png b/Pics/spades/8.png[m
+[1mdeleted file mode 100644[m
+[1mindex b7446cb..0000000[m
+Binary files a/Pics/spades/8.png and /dev/null differ
+[1mdiff --git a/Pics/spades/9.png b/Pics/spades/9.png[m
+[1mdeleted file mode 100644[m
+[1mindex 273a1fe..0000000[m
+Binary files a/Pics/spades/9.png and /dev/null differ
