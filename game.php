@@ -1,11 +1,12 @@
-<?php
+
+       <?php
        
        function displayRandCard()
        {
            $suits = array("clubs", "diamonds", "hearts","spades");
            $randomSuitIndex = rand(0,3);
            $randomSuit = $suits[$randomSuitIndex];
-           echo  "<img src = '../img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
+           echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
            
            $deck = array();
            for($i = 1; $i <= 52; $i++)
