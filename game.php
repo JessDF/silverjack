@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <title>SilverJack Lab 3</title>
+
+        <title>Arrays Review</title>
+        <link rel="stylesheet" href="css/style.css" tyype="text/css" />
+
     </head>
     
     <body>
