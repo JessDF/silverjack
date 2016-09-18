@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Arrays Review</title>
+        <title>SilverJack Lab 3</title>
     </head>
     
     <body>
         
-        <h1>Silverjack Review</h1>
+        <h1>Silverjack</h1>
        
        <?php
        
