@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Arrays Review</title>
+        <link rel="stylesheet" href="css/style.css" tyype="text/css" />
     </head>
     
     <body>
