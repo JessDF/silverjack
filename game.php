@@ -16,31 +16,30 @@
                {
                    $deck[] = $i;
                }
-           for($j = 0; $j < 3; $j++){
+               
+           for($j = 0; $j < 3; $j++)
+           {
                if($j==0){
                  echo  "<img src = 'img/jessie.jpg' />";  
-                 echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                 echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                 echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                 echo"<br/>";
                }
                else if($j==1){
                    echo  "<img src = 'img/Garrett.jpg' />";
-                   echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                   echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                   echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                   echo"<br/>";
                }
                else{
                    echo  "<img src = 'img/mateo.jpg' />";
-                   echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                   echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                   echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />";
-                   echo"<br/>";
                }
+                 
+                 for($i = 1; $i <= 4; $i++)
+               {
+                  echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />"; 
+               }
+                 echo "<br>";
+              }
+               
+               
            
                
-           }
+           
            
            shuffle($deck);
           //
