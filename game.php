@@ -90,7 +90,7 @@
                     
                     if($playerScore[$count]>=42 ){
                         
-                        echo $playerScore[$count];
+                        echo " Player Score: " . $playerScore[$count];
                         $count++;
                         echo "<br/>";
                       
@@ -98,7 +98,7 @@
                     } 
                     elseif($playerScore[$count]>=37 && $playerScore[$count]<42){
                         
-                        echo $playerScore[$count];
+                        echo " Player Score: " . $playerScore[$count];
                         $count++;
                         echo "<br/>";
                         
@@ -138,7 +138,7 @@
                }
                $spot = 0;
                while($winner[$spot] != NULL){
-                   echo "Winner is " .$player[$spot] . " with " . $winner[$spot] . " <br>";
+                   echo "Winner is player - " .$player[$spot] . " with " . $winner[$spot] . " <br>";
                    $spot++;
                }
            
