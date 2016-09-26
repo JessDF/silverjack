@@ -117,33 +117,31 @@
               
                    
                }
+               $winner = array(0,0,0);
+               $player = array(0,0,0);
+               $index = 0;
+               for($l = 0; $l < 3; $l++){
+                   if ($playerScore[$l] == 42){
+                       $winner[$index] = $playerScore[$l];
+                       $player[$index] = $l;
+                       $index;
+                   }
+                   else if ($winner[$index] < $playerScore[$l] && $playerScore[$l] <= 42){
+                       $winner[$index] = $playerScore[$l];
+                       $player[$index] = $l;
+                   }
+                   else if($winner[$index] == $playerScore[$l]){
+                       $index++;
+                       $winner[$index] = $playerScore[$l];
+                       $player[$index] = $l;
+                   }
+               }
+               $spot = 0;
+               while($winner[$spot] != NULL){
+                   echo "Winner is " .$player[$spot] . " with " . $winner[$spot] . " <br>";
+                   $spot++;
+               }
            
-                  
-               
-               
-          /* for($j = 0; $j < 3; $j++)
-           {
-               if($j==0){
-                    echo  "<img src =  'img/jessie.jpg' />"; 
-               }
-               else if($j==1){
-                   echo  "<img src = 'img/Garrett.jpg' />";
-               }
-               else{
-                   echo  "<img src = 'img/mateo.jpg' />";
-               }
-                 
-                 for($i = 1; $i <= 4; $i++)
-               {
-                  
-                  
-                  echo  "<img src = 'img/cards/$randomSuit/" . rand(1, 13) . ".png' />"; 
-               }
-                 echo "<br>";
-              }
-               
-          $card = array_pop($deck);
-           echo $card . "<br />";*/
        }
        
        

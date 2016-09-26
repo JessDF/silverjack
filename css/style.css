@@ -2,11 +2,14 @@
             width: 960px;
             padding:20px;
             margin: 0 auto; /* This aligns the section in the center */
+            border: 3px solid black;
         }
         h1{
             text-align: center;
             text-decoration: underline;
         }
         main{
-            background-color: #f0ffff;
+            background-color: #6699cc;
+            color:white;
+            
         }
