@@ -2,14 +2,22 @@
             width: 960px;
             padding:20px;
             margin: 0 auto; /* This aligns the section in the center */
-            border: 3px solid black;
+            border: 5px solid #cc6699;
         }
         h1{
             text-align: center;
             text-decoration: underline;
         }
+        body{
+            background-color: #efe0d1;
+        }
         main{
             background-color: #6699cc;
             color:white;
-            
+            position: fixed; 
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-bottom-color: #99cc66;
+            border-top-color: #99cc66;
         }

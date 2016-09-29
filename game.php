@@ -117,29 +117,35 @@
               
                    
                }
-               $winner = array(0,0,0);
+               $winner = array(-1,-1,-1);
                $player = array(0,0,0);
                $index = 0;
                for($l = 0; $l < 3; $l++){
                    if ($playerScore[$l] == 42){
                        $winner[$index] = $playerScore[$l];
                        $player[$index] = $l;
-                       $index;
                    }
-                   else if ($winner[$index] < $playerScore[$l] && $playerScore[$l] <= 42){
+                   else if ($winner[$index] < $playerScore[$l] && $playerScore[$l] < 42){
                        $winner[$index] = $playerScore[$l];
                        $player[$index] = $l;
                    }
-                   else if($winner[$index] == $playerScore[$l]){
+               } 
+               for($j = 0; $j < 3; $j ++){
+                   if($playerScore[$j] == $winner[0]){
+                       $winner[$index] = $playerScore[$j];
+                       $player[$index] = $j;
                        $index++;
-                       $winner[$index] = $playerScore[$l];
-                       $player[$index] = $l;
                    }
                }
+               
+               
                $spot = 0;
-               while($winner[$spot] != NULL){
-                   echo "Winner is player - " .$player[$spot] . " with " . $winner[$spot] . " <br>";
+               while($winner[$spot] != -1){
+                   echo "<h4>Winner is player - " .$player[$spot] . " with " . $winner[$spot] . "</h4>";
                    $spot++;
+               }
+               if($spot == 0){
+                   echo "<h4>There is no winner.....</h4>"; 
                }
            
        }
@@ -150,7 +156,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Arrays Review</title>
+        <title>Silverjack</title>
         <link rel="stylesheet" href="css/style.css" type="text/css" />
     </head>
     
