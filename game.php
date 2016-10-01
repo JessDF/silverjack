@@ -1,5 +1,5 @@
 
-       <?php
+        <?php
        
        function displayRandCard()
        {
@@ -19,10 +19,19 @@
            
            $count=0;
            $playerScore= array(0,0,0);
+           $imgArray = array("0.jpg", "1.jpg", "2.jpg", "3.jpg");
+           shuffle($imgArray);
+           $imgindex = 0;
            
-               while($count <3){
+               while($count <4){
                    
                  $card_index=rand(0,51);
+                 
+                 if($imgindex == $count){
+                 echo "<img src = 'img/" . $imgArray[$imgindex] . "' />";
+                 $imgindex++;
+                 }
+                 
                  
                  if(in_array($card_index,$deck))
                  {
@@ -117,10 +126,10 @@
               
                    
                }
-               $winner = array(-1,-1,-1);
-               $player = array(0,0,0);
+               $winner = array(-1,-1,-1, -1);
+               $player = array(0,0,0, 0);
                $index = 0;
-               for($l = 0; $l < 3; $l++){
+               for($l = 0; $l < 4; $l++){
                    if ($playerScore[$l] == 42){
                        $winner[$index] = $playerScore[$l];
                        $player[$index] = $l;
@@ -130,7 +139,7 @@
                        $player[$index] = $l;
                    }
                } 
-               for($j = 0; $j < 3; $j ++){
+               for($j = 0; $j < 4; $j ++){
                    if($playerScore[$j] == $winner[0]){
                        $winner[$index] = $playerScore[$j];
                        $player[$index] = $j;
@@ -164,7 +173,7 @@
       <main>
         <h1>Silverjack Review</h1>
        <?=displayRandCard()?> 
-     
+         <form><input type=button value="Refresh" onClick="window.location.reload()"></form>
        
       </main>
     </body>
