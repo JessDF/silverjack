@@ -1,5 +1,5 @@
 
-       <?php
+        <?php
        
        function displayRandCard()
        {
@@ -19,13 +19,25 @@
            
            $count=0;
            $playerScore= array(0,0,0);
+<<<<<<< HEAD
            $playersImg= array("<img src = 'silverjack/img/0.jpg' />","<img src = 'silverjack/img/1.jpg' />",
            "<img src = 'silverjack/img/2.jpg' />","<img src = 'silverjack/img/3.jpg' />");
            
+=======
+           $imgArray = array("0.jpg", "1.jpg", "2.jpg", "3.jpg");
+           shuffle($imgArray);
+           $imgindex = 0;
+>>>>>>> 7930b48facda1aa8310f186e62751e2e01ec8275
            
                while($count <4){
                    
                  $card_index=rand(0,51);
+                 
+                 if($imgindex == $count){
+                 echo "<img src = 'img/" . $imgArray[$imgindex] . "' />";
+                 $imgindex++;
+                 }
+                 
                  
                  if(in_array($card_index,$deck))
                  {
