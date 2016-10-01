@@ -117,10 +117,10 @@
               
                    
                }
-               $winner = array(-1,-1,-1);
-               $player = array(0,0,0);
+               $winner = array(-1,-1,-1, -1);
+               $player = array(0,0,0, 0);
                $index = 0;
-               for($l = 0; $l < 3; $l++){
+               for($l = 0; $l < 4; $l++){
                    if ($playerScore[$l] == 42){
                        $winner[$index] = $playerScore[$l];
                        $player[$index] = $l;
@@ -130,7 +130,7 @@
                        $player[$index] = $l;
                    }
                } 
-               for($j = 0; $j < 3; $j ++){
+               for($j = 0; $j < 4; $j ++){
                    if($playerScore[$j] == $winner[0]){
                        $winner[$index] = $playerScore[$j];
                        $player[$index] = $j;
