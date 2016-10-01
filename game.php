@@ -19,6 +19,9 @@
            
            $count=0;
            $playerScore= array(0,0,0);
+           $playersImg= array("<img src = 'silverjack/img/0.jpg' />","<img src = 'silverjack/img/1.jpg' />",
+           "<img src = 'silverjack/img/2.jpg' />","<img src = 'silverjack/img/3.jpg' />");
+           
            
                while($count <4){
                    
@@ -26,19 +29,13 @@
                  
                  if(in_array($card_index,$deck))
                  {
-                     
-                     
                      $card_number = $deck[$card_index] % 13 ;
                      unset($deck[$card_index]);
                     
-                     
-                     
                      if($card_number ==0 || $card_number>=10){
                          $playerScore[$count] += 10;
-                         
                      }
                      else{
-                         
                          $playerScore[$count] += $card_number;
                      }
                      
