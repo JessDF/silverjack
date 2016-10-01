@@ -20,7 +20,7 @@
            $count=0;
            $playerScore= array(0,0,0);
            
-               while($count <3){
+               while($count <4){
                    
                  $card_index=rand(0,51);
                  
