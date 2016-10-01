@@ -164,7 +164,7 @@
       <main>
         <h1>Silverjack Review</h1>
        <?=displayRandCard()?> 
-     
+         <form><input type=button value="Refresh" onClick="window.location.reload()"></form>
        
       </main>
     </body>
