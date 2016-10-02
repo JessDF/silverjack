@@ -22,8 +22,15 @@
            
            
 
-           $imgArray = array("0.jpg", "1.jpg", "2.jpg", "3.png");
+           $imgArray = array("0", "1", "2", "3");
+           $player = array("0", "1", "2", "3");
+           $plyindex = array("0", "1", "2", "3");
            shuffle($imgArray);
+          // print_r($imgArray);
+           for($o = 0; $o < 4; $o++){
+               $player[$o] = $imgArray[$o];
+               $plyindex[$o] = $imgArray[$o];
+           }
            $imgindex = 0;
 
                while($count <4){
@@ -33,7 +40,7 @@
                  $card_index=rand(0,51);
                  
                  if($imgindex == $count){
-                 echo "<img src = 'img/" . $imgArray[$imgindex] . "' />";
+                 echo "<img src = 'img/" . $imgArray[$imgindex] . ".jpg' />";
                  $imgindex++;
                  }
                  
@@ -126,7 +133,6 @@
                    
                }
                $winner = array(-1,-1,-1, -1);
-               $player = array(0,0,0, 0);
                $index = 0;
                for($l = 0; $l < 4; $l++){
                    if ($playerScore[$l] == 42){
@@ -139,23 +145,38 @@
                    }
                } 
                for($j = 0; $j < 4; $j ++){
-                   if($playerScore[$j] == $winner[0]){
+                   if($playerScore[$j] != $winner[0]){
+                       $player[$j] = NULL;
+                   }
+                   else if($playerScore[$j] == $winner[0]){
                        $winner[$index] = $playerScore[$j];
-                       $player[$index] = $j;
+                       $player[$index] = $plyindex[$j];
                        $index++;
                    }
                }
-               
-               
                $spot = 0;
-               while($winner[$spot] != -1){
-                   echo "<h4>Winner is player - " .$player[$spot] . " with " . $winner[$spot] . "</h4>";
-                   $spot++;
+              while($winner[$spot] != -1){
+                  if($player[$spot] == "0"){
+                       echo "<h4>Winner is player - Garrett" . " with " . $winner[$spot] . "</h4>";
+                       $spot++;
+                   }
+                   if($player[$spot] == "1"){
+                       echo "<h4>Winner is player - Jessie" . " with " . $winner[$spot] . "</h4>";
+                       $spot++;
+                   }
+                   if($player[$spot] == "2"){
+                       echo "<h4>Winner is player - Mateo" . " with " . $winner[$spot] . "</h4>";
+                       $spot++;
+                   }
+				   if($player[$spot] == "3"){
+                       echo "<h4>Winner is player - Dealer" . " with " . $winner[$spot] . "</h4>";
+                       $spot++;
+                   }
                }
                if($spot == 0){
                    echo "<h4>There is no winner.....</h4>"; 
                }
-           
+          
        }
        
        
